@@ -1,0 +1,429 @@
+{
+  "schema_version": 1,
+  "evidence_status": "historical-engine-decision-input",
+  "matches_current_staged_inputs": false,
+  "passes_current_validator": false,
+  "current_validator_gap": "raw dependency and build-activity receipts were not retained",
+  "results": [
+    {
+      "scenario_id": "loaded-single-12",
+      "candidate": "cef",
+      "repetitions": 3,
+      "peak_bytes": {
+        "min": 1117627592,
+        "median": 1126934064,
+        "max": 1143776744
+      },
+      "startup_ns": {
+        "min": 3361261500,
+        "median": 3470958750,
+        "max": 5111487875
+      },
+      "process_count": {
+        "min": 19,
+        "median": 19,
+        "max": 19
+      },
+      "sample_window_ns": {
+        "min": 10003613792,
+        "max": 10010904375
+      },
+      "free_memory_percent": {
+        "min": 47,
+        "max": 52
+      }
+    },
+    {
+      "scenario_id": "loaded-single-12",
+      "candidate": "qt",
+      "repetitions": 3,
+      "peak_bytes": {
+        "min": 1875759528,
+        "median": 1899352488,
+        "max": 1909936384
+      },
+      "startup_ns": {
+        "min": 4295933208,
+        "median": 4450687334,
+        "max": 4788925084
+      },
+      "process_count": {
+        "min": 15,
+        "median": 15,
+        "max": 15
+      },
+      "sample_window_ns": {
+        "min": 10010488625,
+        "max": 10010539166
+      },
+      "free_memory_percent": {
+        "min": 50,
+        "max": 51
+      }
+    },
+    {
+      "scenario_id": "loaded-single-12",
+      "candidate": "webkit",
+      "repetitions": 3,
+      "peak_bytes": {
+        "min": 473593416,
+        "median": 482309800,
+        "max": 485078744
+      },
+      "startup_ns": {
+        "min": 2609942083,
+        "median": 2691958792,
+        "max": 2812676292
+      },
+      "process_count": {
+        "min": 17,
+        "median": 17,
+        "max": 17
+      },
+      "sample_window_ns": {
+        "min": 10007020625,
+        "max": 10010405084
+      },
+      "free_memory_percent": {
+        "min": 50,
+        "max": 52
+      }
+    },
+    {
+      "scenario_id": "loaded-single-20",
+      "candidate": "cef",
+      "repetitions": 3,
+      "peak_bytes": {
+        "min": 1547686224,
+        "median": 1562365904,
+        "max": 1586057240
+      },
+      "startup_ns": {
+        "min": 2484890959,
+        "median": 3845262584,
+        "max": 4174916791
+      },
+      "process_count": {
+        "min": 27,
+        "median": 27,
+        "max": 27
+      },
+      "sample_window_ns": {
+        "min": 10005484000,
+        "max": 14570125000
+      },
+      "free_memory_percent": {
+        "min": 45,
+        "max": 52
+      }
+    },
+    {
+      "scenario_id": "loaded-single-20",
+      "candidate": "qt",
+      "repetitions": 3,
+      "peak_bytes": {
+        "min": 2801384768,
+        "median": 2829106256,
+        "max": 2881240408
+      },
+      "startup_ns": {
+        "min": 3292120542,
+        "median": 7109888750,
+        "max": 7234325083
+      },
+      "process_count": {
+        "min": 23,
+        "median": 23,
+        "max": 23
+      },
+      "sample_window_ns": {
+        "min": 10005384125,
+        "max": 12819668583
+      },
+      "free_memory_percent": {
+        "min": 41,
+        "max": 49
+      }
+    },
+    {
+      "scenario_id": "loaded-single-20",
+      "candidate": "webkit",
+      "repetitions": 3,
+      "peak_bytes": {
+        "min": 651776184,
+        "median": 673059120,
+        "max": 694751464
+      },
+      "startup_ns": {
+        "min": 3220615708,
+        "median": 4035876542,
+        "max": 5845966042
+      },
+      "process_count": {
+        "min": 25,
+        "median": 25,
+        "max": 25
+      },
+      "sample_window_ns": {
+        "min": 10003867833,
+        "max": 10010392916
+      },
+      "free_memory_percent": {
+        "min": 38,
+        "max": 52
+      }
+    },
+    {
+      "scenario_id": "loaded-single-7",
+      "candidate": "cef",
+      "repetitions": 3,
+      "peak_bytes": {
+        "min": 790382952,
+        "median": 796346680,
+        "max": 799214120
+      },
+      "startup_ns": {
+        "min": 2515644958,
+        "median": 2601474417,
+        "max": 4031047708
+      },
+      "process_count": {
+        "min": 14,
+        "median": 14,
+        "max": 14
+      },
+      "sample_window_ns": {
+        "min": 10001330334,
+        "max": 10004488791
+      },
+      "free_memory_percent": {
+        "min": 46,
+        "max": 51
+      }
+    },
+    {
+      "scenario_id": "loaded-single-7",
+      "candidate": "qt",
+      "repetitions": 3,
+      "peak_bytes": {
+        "min": 1069954560,
+        "median": 1127577016,
+        "max": 1139832368
+      },
+      "startup_ns": {
+        "min": 2937996917,
+        "median": 3305886875,
+        "max": 3886609875
+      },
+      "process_count": {
+        "min": 10,
+        "median": 10,
+        "max": 10
+      },
+      "sample_window_ns": {
+        "min": 10002902916,
+        "max": 10008794125
+      },
+      "free_memory_percent": {
+        "min": 49,
+        "max": 52
+      }
+    },
+    {
+      "scenario_id": "loaded-single-7",
+      "candidate": "webkit",
+      "repetitions": 3,
+      "peak_bytes": {
+        "min": 339863032,
+        "median": 353314344,
+        "max": 366126632
+      },
+      "startup_ns": {
+        "min": 1928479500,
+        "median": 1991106708,
+        "max": 2183581417
+      },
+      "process_count": {
+        "min": 12,
+        "median": 12,
+        "max": 12
+      },
+      "sample_window_ns": {
+        "min": 10007658042,
+        "max": 10010666750
+      },
+      "free_memory_percent": {
+        "min": 46,
+        "max": 51
+      }
+    },
+    {
+      "scenario_id": "loaded-split-7",
+      "candidate": "cef",
+      "repetitions": 3,
+      "peak_bytes": {
+        "min": 780028120,
+        "median": 795019408,
+        "max": 796216160
+      },
+      "startup_ns": {
+        "min": 1141212667,
+        "median": 1463493583,
+        "max": 1516101958
+      },
+      "process_count": {
+        "min": 14,
+        "median": 14,
+        "max": 14
+      },
+      "sample_window_ns": {
+        "min": 10005275916,
+        "max": 10010242416
+      },
+      "free_memory_percent": {
+        "min": 43,
+        "max": 53
+      }
+    },
+    {
+      "scenario_id": "loaded-split-7",
+      "candidate": "qt",
+      "repetitions": 3,
+      "peak_bytes": {
+        "min": 1153267344,
+        "median": 1154921936,
+        "max": 1259779680
+      },
+      "startup_ns": {
+        "min": 1042922208,
+        "median": 1375981083,
+        "max": 1382423000
+      },
+      "process_count": {
+        "min": 10,
+        "median": 10,
+        "max": 10
+      },
+      "sample_window_ns": {
+        "min": 10000890125,
+        "max": 10005326833
+      },
+      "free_memory_percent": {
+        "min": 44,
+        "max": 55
+      }
+    },
+    {
+      "scenario_id": "loaded-split-7",
+      "candidate": "webkit",
+      "repetitions": 3,
+      "peak_bytes": {
+        "min": 342107664,
+        "median": 350807520,
+        "max": 359622208
+      },
+      "startup_ns": {
+        "min": 1088464833,
+        "median": 1089277750,
+        "max": 1159658083
+      },
+      "process_count": {
+        "min": 12,
+        "median": 12,
+        "max": 12
+      },
+      "sample_window_ns": {
+        "min": 10000503459,
+        "max": 10002812292
+      },
+      "free_memory_percent": {
+        "min": 42,
+        "max": 53
+      }
+    },
+    {
+      "scenario_id": "unloaded-single-20",
+      "candidate": "cef",
+      "repetitions": 3,
+      "peak_bytes": {
+        "min": 439904456,
+        "median": 440527192,
+        "max": 444770480
+      },
+      "startup_ns": {
+        "min": 2039602417,
+        "median": 2093529708,
+        "max": 2500303209
+      },
+      "process_count": {
+        "min": 8,
+        "median": 8,
+        "max": 8
+      },
+      "sample_window_ns": {
+        "min": 10003532916,
+        "max": 10005231834
+      },
+      "free_memory_percent": {
+        "min": 44,
+        "max": 49
+      }
+    },
+    {
+      "scenario_id": "unloaded-single-20",
+      "candidate": "qt",
+      "repetitions": 3,
+      "peak_bytes": {
+        "min": 712119960,
+        "median": 717116936,
+        "max": 723474000
+      },
+      "startup_ns": {
+        "min": 2651937166,
+        "median": 2743831125,
+        "max": 2968180416
+      },
+      "process_count": {
+        "min": 4,
+        "median": 4,
+        "max": 4
+      },
+      "sample_window_ns": {
+        "min": 10005092584,
+        "max": 10009096416
+      },
+      "free_memory_percent": {
+        "min": 45,
+        "max": 50
+      }
+    },
+    {
+      "scenario_id": "unloaded-single-20",
+      "candidate": "webkit",
+      "repetitions": 3,
+      "peak_bytes": {
+        "min": 645779424,
+        "median": 662097888,
+        "max": 675729472
+      },
+      "startup_ns": {
+        "min": 1697732333,
+        "median": 1860561709,
+        "max": 1893867750
+      },
+      "process_count": {
+        "min": 25,
+        "median": 25,
+        "max": 25
+      },
+      "sample_window_ns": {
+        "min": 10000617959,
+        "max": 10005157500
+      },
+      "free_memory_percent": {
+        "min": 42,
+        "max": 51
+      }
+    }
+  ]
+}
