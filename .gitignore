@@ -3,5 +3,9 @@
 .env.*
 .context/
 .memory/
-target/
-.worktrees/
+Build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+Web-memory-benchmark-*.json
+Web-memory-footprint-*.json
